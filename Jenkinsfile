@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/cpp-hello-world.git'
+                git branch: 'main', url: 'https://github.com/SuryaR08/Jenkins-DT-1.git'
             }
         }
         stage('Build') {
